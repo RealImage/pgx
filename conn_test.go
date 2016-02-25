@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx"
+	"github.com/RealImage/pgx"
 )
 
 func TestConnect(t *testing.T) {

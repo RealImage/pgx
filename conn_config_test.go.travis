@@ -2,7 +2,7 @@ package pgx_test
 
 import (
   "crypto/tls"
-  "github.com/jackc/pgx"
+  "github.com/RealImage/pgx"
 )
 
 var defaultConnConfig = &pgx.ConnConfig{Host: "127.0.0.1", User: "pgx_md5", Password: "secret", Database: "pgx_test"}

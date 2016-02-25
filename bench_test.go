@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx"
+	"github.com/RealImage/pgx"
 	log "gopkg.in/inconshreveable/log15.v2"
 )
 

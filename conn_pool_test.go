@@ -3,9 +3,10 @@ package pgx_test
 import (
 	"errors"
 	"fmt"
-	"github.com/jackc/pgx"
 	"sync"
 	"testing"
+
+	"github.com/RealImage/pgx"
 )
 
 func createConnPool(t *testing.T, maxConnections int) *pgx.ConnPool {

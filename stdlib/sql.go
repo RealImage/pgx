@@ -50,7 +50,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/jackc/pgx"
+	"github.com/RealImage/pgx"
 )
 
 var openFromConnPoolCount int

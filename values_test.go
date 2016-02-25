@@ -1,12 +1,13 @@
 package pgx_test
 
 import (
-	"github.com/jackc/pgx"
 	"net"
 	"reflect"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/RealImage/pgx"
 )
 
 func TestDateTranscode(t *testing.T) {

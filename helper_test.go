@@ -1,8 +1,9 @@
 package pgx_test
 
 import (
-	"github.com/jackc/pgx"
 	"testing"
+
+	"github.com/RealImage/pgx"
 )
 
 func mustConnect(t testing.TB, config pgx.ConnConfig) *pgx.Conn {

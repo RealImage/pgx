@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/RealImage/pgx"
 	"github.com/jackc/fake"
-	"github.com/jackc/pgx"
 )
 
 type execer interface {
